@@ -1,0 +1,22 @@
+{
+  "name": "lookprep",
+  "owner": {
+    "name": "LookPrep",
+    "email": "support@lookprep.com",
+    "url": "https://lookprep.com"
+  },
+  "description": "LookPrep plugins for Claude Code.",
+  "plugins": [
+    {
+      "name": "lookprep",
+      "source": "./",
+      "description": "Plan a lip filler consultation: explain named lip looks, compare looks and amounts on stored demo simulations, check prices, and hand an adult to LookPrep to make their own simulation. Read-only; no photo, consent or payment passes through it.",
+      "category": "productivity",
+      "tags": [
+        "beauty",
+        "consultation",
+        "lip-filler"
+      ]
+    }
+  ]
+}
