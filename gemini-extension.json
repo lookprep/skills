@@ -1,0 +1,11 @@
+{
+  "name": "lookprep",
+  "version": "1.0.0",
+  "description": "Plan a lip filler consultation: explain named lip looks, compare looks and amounts on stored demo simulations, check prices, and hand an adult to LookPrep to make their own simulation. Read-only; no photo, consent or payment passes through it.",
+  "mcpServers": {
+    "lookprep": {
+      "type": "http",
+      "url": "https://mcp.lookprep.com/mcp"
+    }
+  }
+}
