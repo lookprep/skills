@@ -1,8 +1,8 @@
 <p align="center">
   <a href="https://lookprep.com">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lookprep/skills/main/assets/lookprep-wordmark-reversed.svg">
-      <img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/lookprep-wordmark.svg" alt="LookPrep" width="220">
+      <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/lookprep/skills/main/assets/banner-dark.webp">
+      <img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/banner-light.webp" alt="LookPrep: preview filler and lip flip on your own photo." width="900">
     </picture>
   </a>
 </p>
@@ -42,6 +42,18 @@ skill is plain-language instructions, the tools are LookPrep's hosted, read-only
 [MCP server](https://github.com/lookprep/lookprep-mcp) (`https://mcp.lookprep.com/mcp`), and
 `scripts/` holds only the repository's own checks. To see what the demo simulations look like,
 open the [public demo](https://lookprep.com/demo).
+
+<p align="center">
+  <a href="https://lookprep.com/looks/russian-lips"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-russian-lips.webp" alt="Russian lips: editorial illustration card from the LookPrep looks guide" width="140"></a>
+  <a href="https://lookprep.com/looks/cupids-bow-lips"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-cupids-bow.webp" alt="Cupid's bow: editorial illustration card from the LookPrep looks guide" width="140"></a>
+  <a href="https://lookprep.com/looks/heart-shaped-lips"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-heart-shaped-lips.webp" alt="Heart-shaped lips: editorial illustration card from the LookPrep looks guide" width="140"></a>
+  <a href="https://lookprep.com/looks/natural-lip-enhancement"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-natural-lip-enhancement.webp" alt="Natural lip enhancement: editorial illustration card from the LookPrep looks guide" width="140"></a>
+  <a href="https://lookprep.com/looks/doll-lips"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-doll-lips.webp" alt="Doll lips: editorial illustration card from the LookPrep looks guide" width="140"></a>
+  <a href="https://lookprep.com/looks/butterfly-lips"><img src="https://raw.githubusercontent.com/lookprep/skills/main/assets/look-butterfly-lips.webp" alt="Butterfly lips: editorial illustration card from the LookPrep looks guide" width="140"></a>
+</p>
+
+Some of the named looks the skill explains, as illustrated on their pages on lookprep.com. The
+illustrations show what each look is called, not a treatment result.
 
 ## Install
 
@@ -188,7 +200,8 @@ The full instructions are in
 | `.cursor-plugin/plugin.json` | Cursor |
 | `gemini-extension.json` | Gemini CLI |
 | `assets/icon.svg`, `assets/icon.png` | The plugin icon (SVG for Claude and Cursor; the same artwork as a 512 px PNG for Codex) |
-| `assets/lookprep-wordmark.svg`, `assets/lookprep-wordmark-reversed.svg` | The wordmark at the top of this README (light and dark) |
+| `assets/banner-light.webp`, `assets/banner-dark.webp`, `assets/look-*.webp` | The banner (light and dark) and the look illustrations in this README |
+| `assets/lookprep-wordmark.svg`, `assets/lookprep-wordmark-reversed.svg` | The LookPrep wordmark (light and dark) |
 | `scripts/` | The repository's own checks (`bash scripts/check-local.sh`, Node.js 24 or newer). No plugin runs them. |
 
 Every manifest carries the same version, listed in
